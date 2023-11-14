@@ -16,6 +16,10 @@
 }
 @media(max-width:770px){
     .header{
+        padding: 50px;
+        .header__title{
+            font-size: 35px;
+        }
         .header__img{
             grid-template-columns: auto auto;
             gap: 10px;
