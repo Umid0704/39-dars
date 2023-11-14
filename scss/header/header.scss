@@ -7,23 +7,47 @@
         text-align: center;
         color: #22343D;
     }
-    .header__img{
+
+    .header__img {
+        margin-top: 50px;
         display: grid;
         grid-template-columns: auto auto auto auto;
-        justify-content:center;
+        justify-content: center;
         gap: 20px;
     }
 }
-@media(max-width:770px){
-    .header{
-        padding: 50px;
-        .header__title{
+
+@media(max-width:770px) {
+    .header {
+        padding: 50px 0;
+
+        .header__title {
             font-size: 35px;
         }
-        .header__img{
-            grid-template-columns: auto auto;
+
+        .header__img {
             gap: 10px;
-            img{
+            img {
+                width: 110px;
+            }
+        }
+    }
+}
+
+@media(max-width:477px) {
+    .header {
+        padding: 50px 0;
+
+        .header__title {
+            font-size: 35px;
+        }
+
+        .header__img {
+            margin-top: 25px;
+            grid-template-columns: auto auto;
+            justify-content: space-around;
+
+            img {
                 width: 120px;
             }
         }

@@ -1,0 +1,35 @@
+.section {
+  background: #F5F5F5;
+}
+.section .section__title {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.section .section__boxs {
+  display: flex;
+  padding: 25px 0 64px;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.section .section__boxs .boxs__item {
+  border: 1px solid #DEDEDE;
+  padding: 34px;
+  width: 350px;
+  border-radius: 10px;
+}
+.section .section__boxs .boxs__item h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.section .section__boxs .boxs__item p {
+  width: 275px;
+  text-align: center;
+}
+.section .section__boxs .boxs__item .boxs__img {
+  text-align: center;
+}/*# sourceMappingURL=section.css.map */

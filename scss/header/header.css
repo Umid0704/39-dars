@@ -8,6 +8,7 @@
   color: #22343D;
 }
 .header .header__img {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
@@ -16,14 +17,29 @@
 
 @media (max-width: 770px) {
   .header {
-    padding: 50px;
+    padding: 50px 0;
   }
   .header .header__title {
     font-size: 35px;
   }
   .header .header__img {
-    grid-template-columns: auto auto;
     gap: 10px;
+  }
+  .header .header__img img {
+    width: 110px;
+  }
+}
+@media (max-width: 477px) {
+  .header {
+    padding: 50px 0;
+  }
+  .header .header__title {
+    font-size: 35px;
+  }
+  .header .header__img {
+    margin-top: 25px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
   }
   .header .header__img img {
     width: 120px;
