@@ -1,0 +1,66 @@
+.navbar .nav__links ul, .navbar .nav__links, .navbar .navbar__logo, .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav__links .btn__up, .navbar .nav__links .btn__in {
+  padding: 10px 23px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.navbar {
+  padding: 20px 140px;
+  justify-content: space-between;
+}
+.navbar .navbar__logo {
+  gap: 10px;
+}
+.navbar .navbar__logo .logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #173A56;
+}
+.navbar .nav__links {
+  gap: 24px;
+}
+.navbar .nav__links ul {
+  gap: 24px;
+}
+.navbar .nav__links ul li a {
+  color: #22343D;
+  font-size: 16px;
+}
+.navbar .nav__links .btn__in {
+  color: #173A56;
+  border-color: #BCD0E5;
+}
+.navbar .nav__links .btn__up {
+  color: #FFFFFF;
+  border: none;
+  background: #02897A;
+}
+.navbar .main {
+  display: none;
+}
+.navbar .main i {
+  font-size: 25px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .navbar {
+    padding: 20px 90px;
+  }
+}
+@media (max-width: 990px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+  .navbar .nav__links {
+    display: none;
+  }
+  .navbar .main {
+    display: block;
+  }
+}/*# sourceMappingURL=nav.css.map */
