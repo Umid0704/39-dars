@@ -17,6 +17,9 @@
 @media (max-width: 770px) {
   .header .header__img {
     grid-template-columns: auto auto;
-    gap: 30px;
+    gap: 10px;
+  }
+  .header .header__img img {
+    width: 120px;
   }
 }/*# sourceMappingURL=header.css.map */

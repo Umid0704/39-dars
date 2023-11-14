@@ -18,7 +18,10 @@
     .header{
         .header__img{
             grid-template-columns: auto auto;
-            gap: 30px;
+            gap: 10px;
+            img{
+                width: 120px;
+            }
         }
     }
 }
